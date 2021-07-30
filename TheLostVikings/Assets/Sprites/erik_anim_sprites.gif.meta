@@ -1,0 +1,2120 @@
+fileFormatVersion: 2
+guid: 8f98ae2e9a63cd248a4e4252be9a3a8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8542549722224151128
+    second: erik_anim_idle1
+  - first:
+      213: -4533804434214652351
+    second: erik_anim_idle2
+  - first:
+      213: -2412780659314933754
+    second: erik_anim_tieshoe1
+  - first:
+      213: 1840545214729556407
+    second: erik_anim_tieshoe2
+  - first:
+      213: -496965189520083689
+    second: erik_anim_tieshoe3
+  - first:
+      213: -1028276463178717569
+    second: erik_anim_run1
+  - first:
+      213: 3513919964888026821
+    second: erik_anim_run2
+  - first:
+      213: 6849879135055456265
+    second: erik_anim_run3
+  - first:
+      213: -8749958638613649850
+    second: erik_anim_run4
+  - first:
+      213: 4587668265131097283
+    second: erik_anim_run5
+  - first:
+      213: 8361630549413109983
+    second: erik_anim_run6
+  - first:
+      213: -8282379198431682017
+    second: erik_anim_run7
+  - first:
+      213: 2112203476683887718
+    second: erik_anim_run8
+  - first:
+      213: 3443132009068590149
+    second: erik_anim_stop1
+  - first:
+      213: 1482217313431501931
+    second: erik_anim_stop2
+  - first:
+      213: -4537296103039685653
+    second: erik_anim_stop3
+  - first:
+      213: 4647939639093066383
+    second: erik_anim_sprites_16
+  - first:
+      213: 588681788948680040
+    second: erik_anim_sprites_17
+  - first:
+      213: -8554386832945446810
+    second: erik_anim_sprites_18
+  - first:
+      213: 2393720029154046280
+    second: erik_anim_sprites_19
+  - first:
+      213: -2805430992303221446
+    second: erik_anim_sprites_20
+  - first:
+      213: -3646670303435709073
+    second: erik_anim_sprites_21
+  - first:
+      213: -949566610003731721
+    second: erik_anim_sprites_22
+  - first:
+      213: 2914129028876837252
+    second: erik_anim_sprites_23
+  - first:
+      213: 7975481722051519497
+    second: erik_anim_sprites_24
+  - first:
+      213: -4684854239995021860
+    second: erik_anim_sprites_25
+  - first:
+      213: -1031604727363453364
+    second: erik_anim_sprites_26
+  - first:
+      213: 5858294314142260692
+    second: erik_anim_sprites_27
+  - first:
+      213: -1837365704770149964
+    second: erik_anim_sprites_28
+  - first:
+      213: -8466713213365023188
+    second: erik_anim_sprites_29
+  - first:
+      213: -1591931690731220904
+    second: erik_anim_sprites_30
+  - first:
+      213: 4707502267823901389
+    second: erik_anim_sprites_31
+  - first:
+      213: -7560927854015571903
+    second: erik_anim_sprites_32
+  - first:
+      213: -8511394913532733519
+    second: erik_anim_sprites_33
+  - first:
+      213: -8368592174866602112
+    second: erik_anim_sprites_34
+  - first:
+      213: 2340650921435071296
+    second: erik_anim_sprites_35
+  - first:
+      213: -7922724168698256864
+    second: erik_anim_sprites_36
+  - first:
+      213: -1300491934372344935
+    second: erik_anim_sprites_37
+  - first:
+      213: 3344315503831695000
+    second: erik_anim_sprites_38
+  - first:
+      213: 5374128741473787707
+    second: erik_anim_sprites_39
+  - first:
+      213: -2793731211087836523
+    second: erik_anim_sprites_40
+  - first:
+      213: 8440209441897619727
+    second: erik_anim_sprites_41
+  - first:
+      213: -6889798941334733801
+    second: erik_anim_sprites_42
+  - first:
+      213: 2552092753648036338
+    second: erik_anim_sprites_43
+  - first:
+      213: -3379756471617287854
+    second: erik_anim_sprites_44
+  - first:
+      213: -1614664337390161604
+    second: erik_anim_sprites_45
+  - first:
+      213: -8554036679566985308
+    second: erik_anim_sprites_46
+  - first:
+      213: -8655548466246207091
+    second: erik_anim_sprites_47
+  - first:
+      213: -3629895119253618507
+    second: erik_anim_sprites_48
+  - first:
+      213: 4383055949345851946
+    second: erik_anim_sprites_49
+  - first:
+      213: 1283681180591641096
+    second: erik_anim_sprites_50
+  - first:
+      213: -9125798489079064869
+    second: erik_anim_sprites_51
+  - first:
+      213: 8455294410919546014
+    second: erik_anim_sprites_52
+  - first:
+      213: -2181404139417862963
+    second: erik_anim_sprites_53
+  - first:
+      213: 4405326153909550496
+    second: erik_anim_sprites_54
+  - first:
+      213: -1977763204830845238
+    second: erik_anim_sprites_55
+  - first:
+      213: 2739784291847453744
+    second: erik_anim_sprites_56
+  - first:
+      213: -8960552412962547916
+    second: erik_anim_sprites_57
+  - first:
+      213: -3437221813762238616
+    second: erik_anim_sprites_58
+  - first:
+      213: 6095749011483481474
+    second: erik_anim_sprites_59
+  - first:
+      213: -2235511634249753192
+    second: erik_anim_sprites_60
+  - first:
+      213: 6358282169376044160
+    second: erik_anim_sprites_61
+  - first:
+      213: -6892016073713686160
+    second: erik_anim_sprites_62
+  - first:
+      213: 7802647852502663697
+    second: erik_anim_sprites_63
+  - first:
+      213: -1432126430312831174
+    second: erik_anim_sprites_64
+  - first:
+      213: -7895684852158697362
+    second: erik_anim_sprites_65
+  - first:
+      213: -8351305195391153458
+    second: erik_anim_sprites_66
+  - first:
+      213: -829333337380522380
+    second: erik_anim_sprites_67
+  - first:
+      213: 3533887542933767633
+    second: erik_anim_sprites_68
+  - first:
+      213: -3284002409993460728
+    second: erik_anim_sprites_69
+  - first:
+      213: 5109408026185585575
+    second: erik_anim_sprites_70
+  - first:
+      213: 432397994992106726
+    second: erik_anim_sprites_71
+  - first:
+      213: -6033010862352093820
+    second: erik_anim_sprites_72
+  - first:
+      213: 7158533653037840793
+    second: erik_anim_sprites_73
+  - first:
+      213: 5307982898977470270
+    second: erik_anim_sprites_74
+  - first:
+      213: -6334877382033246115
+    second: erik_anim_sprites_75
+  - first:
+      213: -6582332111487447846
+    second: erik_anim_sprites_76
+  - first:
+      213: -7317043758161006657
+    second: erik_anim_sprites_77
+  - first:
+      213: 8959466836062648125
+    second: erik_anim_sprites_78
+  - first:
+      213: -8394540161651114289
+    second: erik_anim_sprites_79
+  - first:
+      213: 8138141432495727544
+    second: erik_anim_sprites_80
+  - first:
+      213: 5090639026435652294
+    second: erik_anim_sprites_81
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 4, y: 560, z: 264, w: 8}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: erik_anim_idle1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5b7bab944c27980800000000000000
+      internalID: -8542549722224151128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_idle2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1467b8163e0b411c0800000000000000
+      internalID: -4533804434214652351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_tieshoe1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600c99816c4148ed0800000000000000
+      internalID: -2412780659314933754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_tieshoe2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b110050f1eea8910800000000000000
+      internalID: 1840545214729556407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_tieshoe3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715bbec0bcc6a19f0800000000000000
+      internalID: -496965189520083689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_run1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7666593104dab1f0800000000000000
+      internalID: -1028276463178717569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_run2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cecd4c2793f3c030800000000000000
+      internalID: 3513919964888026821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_run3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9082757f7c8af0f50800000000000000
+      internalID: 6849879135055456265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_run4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646a21a3af6e19680800000000000000
+      internalID: -8749958638613649850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_run5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 519
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccb87a0bfbaaaf30800000000000000
+      internalID: 4587668265131097283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_run6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 519
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0a2d0deaa7a0470800000000000000
+      internalID: 8361630549413109983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_run7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 519
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12256e30041f0d80800000000000000
+      internalID: -8282379198431682017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_run8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 519
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66496110fdd005d10800000000000000
+      internalID: 2112203476683887718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_stop1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 519
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5447f4bd15678cf20800000000000000
+      internalID: 3443132009068590149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_stop2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 519
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cb40f1bc4e19410800000000000000
+      internalID: 1482217313431501931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_stop3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 519
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb2e81eb394801c0800000000000000
+      internalID: -4537296103039685653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 519
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a7995d97cc08040800000000000000
+      internalID: 4647939639093066383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 519
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d0704d7fa6b2800800000000000000
+      internalID: 588681788948680040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 482
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660020f9f76b84980800000000000000
+      internalID: -8554386832945446810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 482
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841f67d1fa3383120800000000000000
+      internalID: 2393720029154046280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 482
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3515e5506b1119d0800000000000000
+      internalID: -2805430992303221446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 482
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65afbe0eac646dc0800000000000000
+      internalID: -3646670303435709073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 482
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fad720033672d2f0800000000000000
+      internalID: -949566610003731721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 482
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481abdb79e0117820800000000000000
+      internalID: 2914129028876837252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 482
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904608bce5a9eae60800000000000000
+      internalID: 7975481722051519497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 483
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd53d90e3ed0cfeb0800000000000000
+      internalID: -4684854239995021860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e33e457f00fa1f0800000000000000
+      internalID: -1031604727363453364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddd320e3a7dc4150800000000000000
+      internalID: 5858294314142260692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1a0b450ad5086e0800000000000000
+      internalID: -1837365704770149964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e8546e031308a80800000000000000
+      internalID: -8466713213365023188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850574bcf8258e9e0800000000000000
+      internalID: -1591931690731220904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca4df40f58645140800000000000000
+      internalID: 4707502267823901389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1489b012d20321790800000000000000
+      internalID: -7560927854015571903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b790d3eb6371e980800000000000000
+      internalID: -8511394913532733519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08766f271c9ccdb80800000000000000
+      internalID: -8368592174866602112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043045b9c99ab7020800000000000000
+      internalID: 2340650921435071296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022a65f4854dc0290800000000000000
+      internalID: -7922724168698256864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bc97ad979b3fde0800000000000000
+      internalID: -1300491934372344935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e38b65b35696e20800000000000000
+      internalID: 3344315503831695000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f13c4fd9db49a40800000000000000
+      internalID: 5374128741473787707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a003de34caa39d0800000000000000
+      internalID: -2793731211087836523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01a43ee4c5a12570800000000000000
+      internalID: 8440209441897619727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 366
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c71e7dd548260a0800000000000000
+      internalID: -6889798941334733801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 366
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f92a0f76dada6320800000000000000
+      internalID: 2552092753648036338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 366
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2598ce15561b811d0800000000000000
+      internalID: -3379756471617287854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 366
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c313e5a075f8799e0800000000000000
+      internalID: -1614664337390161604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 366
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a77fbe06f4f94980800000000000000
+      internalID: -8554036679566985308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 366
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89b73d678051e780800000000000000
+      internalID: -8655548466246207091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0c6fcfe9500adc0800000000000000
+      internalID: -3629895119253618507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a0c6bd92eb3dc30800000000000000
+      internalID: 4383055949345851946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 327
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802d4068b3d80d110800000000000000
+      internalID: 1283681180591641096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 327
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd655aeef96aa5180800000000000000
+      internalID: -9125798489079064869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 327
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c843af77d375570800000000000000
+      internalID: 8455294410919546014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 327
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc7e662e781ab1e0800000000000000
+      internalID: -2181404139417862963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 326
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad348bebccd22d30800000000000000
+      internalID: 4405326153909550496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 326
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6283608d29d84e0800000000000000
+      internalID: -1977763204830845238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 327
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c33c42c4ba50620800000000000000
+      internalID: 2739784291847453744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 328
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43719123e09b5a380800000000000000
+      internalID: -8960552412962547916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 329
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8675a78b8f88c40d0800000000000000
+      internalID: -3437221813762238616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 332
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2855965ed63789450800000000000000
+      internalID: 6095749011483481474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d5a4d430ed9f0e0800000000000000
+      internalID: -2235511634249753192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084fb5702f72d3850800000000000000
+      internalID: 6358282169376044160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 287
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079630c75e3aa50a0800000000000000
+      internalID: -6892016073713686160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 287
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112c2e3b1e2984c60800000000000000
+      internalID: 7802647852502663697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 287
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3761cf6990102ce0800000000000000
+      internalID: -1432126430312831174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 287
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60f5a8c574ec6290800000000000000
+      internalID: -7895684852158697362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 287
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca06d10c243a1c80800000000000000
+      internalID: -8351305195391153458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 251
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4767b0149bd9d74f0800000000000000
+      internalID: -829333337380522380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 250
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5ceb83ff3ea0130800000000000000
+      internalID: 3533887542933767633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 249
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80420de1531ec62d0800000000000000
+      internalID: -3284002409993460728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 250
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3525d678348e640800000000000000
+      internalID: 5109408026185585575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 250
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec781d7faf200600800000000000000
+      internalID: 432397994992106726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 250
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d2e6fb590764ca0800000000000000
+      internalID: -6033010862352093820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 250
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999fffd0e68385360800000000000000
+      internalID: 7158533653037840793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 250
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37766fd25eb9a940800000000000000
+      internalID: 5307982898977470270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 250
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58704ca59ef518a0800000000000000
+      internalID: -6334877382033246115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 213
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcc42db1dbd6a4a0800000000000000
+      internalID: -6582332111487447846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfe2d42873a47a90800000000000000
+      internalID: -7317043758161006657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37386c3e9b665c70800000000000000
+      internalID: 8959466836062648125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcef80cf23a908b80800000000000000
+      internalID: -8394540161651114289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3ebcfd38c70f070800000000000000
+      internalID: 8138141432495727544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erik_anim_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6caff62293595a640800000000000000
+      internalID: 5090639026435652294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -143, y: 260.5}
+      - {x: -143, y: 292.47205}
+      - {x: -116.80559, y: 292.4721}
+      - {x: -117, y: 260.5}
+    - - {x: -111.898285, y: 260.5027}
+      - {x: -111.898285, y: 292.5808}
+      - {x: -85.84694, y: 292.5808}
+      - {x: -85.84694, y: 260.5027}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
