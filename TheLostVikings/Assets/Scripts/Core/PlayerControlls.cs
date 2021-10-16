@@ -59,22 +59,6 @@ namespace TheLostVikings
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
-                },
-                {
-                    ""name"": ""SwitchRight"",
-                    ""type"": ""Button"",
-                    ""id"": ""99bf26f6-ef47-42f3-8aa6-a6b971d96682"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
-                    ""name"": ""SwitchLeft"",
-                    ""type"": ""Button"",
-                    ""id"": ""61026369-9b71-43c8-a1e7-e2d18e44e425"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -135,8 +119,30 @@ namespace TheLostVikings
                 },
                 {
                     ""name"": """",
+                    ""id"": ""bb4c9007-54a3-47a0-8a5c-03871106f223"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UseItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""622808d6-30d3-4b00-941c-302249ca45d6"",
                     ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Use"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4fbe96af-924f-468f-9864-16dcc2cb4ea0"",
+                    ""path"": ""<Keyboard>/f"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -209,50 +215,6 @@ namespace TheLostVikings
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""922c9150-2419-4f26-9f2d-bc781c7ddfca"",
-                    ""path"": ""<Gamepad>/rightShoulder"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""SwitchRight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""87315215-9dc6-4662-94a9-cd017a0fb5a1"",
-                    ""path"": ""<Keyboard>/e"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""SwitchRight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""db0ed3db-bbcc-42fe-b3f5-8f5ddbacd920"",
-                    ""path"": ""<Gamepad>/leftShoulder"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""SwitchLeft"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""ade4b399-72c0-4095-a869-caf2733c1fd9"",
-                    ""path"": ""<Keyboard>/q"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""SwitchLeft"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -266,8 +228,6 @@ namespace TheLostVikings
             m_Gameplay_UseItem = m_Gameplay.FindAction("UseItem", throwIfNotFound: true);
             m_Gameplay_Use = m_Gameplay.FindAction("Use", throwIfNotFound: true);
             m_Gameplay_Move = m_Gameplay.FindAction("Move", throwIfNotFound: true);
-            m_Gameplay_SwitchRight = m_Gameplay.FindAction("SwitchRight", throwIfNotFound: true);
-            m_Gameplay_SwitchLeft = m_Gameplay.FindAction("SwitchLeft", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -322,8 +282,6 @@ namespace TheLostVikings
         private readonly InputAction m_Gameplay_UseItem;
         private readonly InputAction m_Gameplay_Use;
         private readonly InputAction m_Gameplay_Move;
-        private readonly InputAction m_Gameplay_SwitchRight;
-        private readonly InputAction m_Gameplay_SwitchLeft;
         public struct GameplayActions
         {
             private @PlayerControlls m_Wrapper;
@@ -333,8 +291,6 @@ namespace TheLostVikings
             public InputAction @UseItem => m_Wrapper.m_Gameplay_UseItem;
             public InputAction @Use => m_Wrapper.m_Gameplay_Use;
             public InputAction @Move => m_Wrapper.m_Gameplay_Move;
-            public InputAction @SwitchRight => m_Wrapper.m_Gameplay_SwitchRight;
-            public InputAction @SwitchLeft => m_Wrapper.m_Gameplay_SwitchLeft;
             public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -359,12 +315,6 @@ namespace TheLostVikings
                     @Move.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMove;
                     @Move.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMove;
                     @Move.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMove;
-                    @SwitchRight.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSwitchRight;
-                    @SwitchRight.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSwitchRight;
-                    @SwitchRight.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSwitchRight;
-                    @SwitchLeft.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSwitchLeft;
-                    @SwitchLeft.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSwitchLeft;
-                    @SwitchLeft.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSwitchLeft;
                 }
                 m_Wrapper.m_GameplayActionsCallbackInterface = instance;
                 if (instance != null)
@@ -384,12 +334,6 @@ namespace TheLostVikings
                     @Move.started += instance.OnMove;
                     @Move.performed += instance.OnMove;
                     @Move.canceled += instance.OnMove;
-                    @SwitchRight.started += instance.OnSwitchRight;
-                    @SwitchRight.performed += instance.OnSwitchRight;
-                    @SwitchRight.canceled += instance.OnSwitchRight;
-                    @SwitchLeft.started += instance.OnSwitchLeft;
-                    @SwitchLeft.performed += instance.OnSwitchLeft;
-                    @SwitchLeft.canceled += instance.OnSwitchLeft;
                 }
             }
         }
@@ -401,8 +345,6 @@ namespace TheLostVikings
             void OnUseItem(InputAction.CallbackContext context);
             void OnUse(InputAction.CallbackContext context);
             void OnMove(InputAction.CallbackContext context);
-            void OnSwitchRight(InputAction.CallbackContext context);
-            void OnSwitchLeft(InputAction.CallbackContext context);
         }
     }
 }

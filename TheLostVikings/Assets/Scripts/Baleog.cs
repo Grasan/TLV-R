@@ -7,13 +7,23 @@ namespace TheLostVikings {
         public float arrowSpeed = 3.0f;
         public float swordCooldown = 0.5f;
 
-        private void SwingSword() {
+        public override void Awake() {
+            base.Awake();
 
+            nextCharachter = GameObject.FindObjectOfType<Olaf>();
+            previusCharachter = GameObject.FindObjectOfType<Erik>();
+        }
+
+        private void SwingSword() {
+            if (isActive)
+                Debug.Log("I used my sword");
         }
 
         private IEnumerator DrawBow() {
-            Debug.Log(this.name + " has drawn his bow");
-            yield return new WaitForSeconds(1.0f);
+            if (isActive) {
+                Debug.Log(this.name + " has drawn his bow");
+                yield return new WaitForSeconds(1.0f);
+            }
         }
 
         private void ShootArrow() {

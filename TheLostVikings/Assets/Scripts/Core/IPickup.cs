@@ -5,5 +5,7 @@ using UnityEngine;
 namespace TheLostVikings {
     public interface IPickup {
         void UseItem();
+
+        //void PickupItem() {}
     }
 }

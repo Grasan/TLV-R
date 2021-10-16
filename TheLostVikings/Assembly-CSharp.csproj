@@ -56,22 +56,23 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\Interactables\Door.cs" />
     <Compile Include="Assets\Scripts\Interactables\Turret.cs" />
     <Compile Include="Assets\Scripts\Erik.cs" />
+    <Compile Include="Assets\Scripts\Core\CharacterManager.cs" />
     <Compile Include="Assets\Scripts\Interactables\Shield.cs" />
     <Compile Include="Assets\Scripts\Interactables\Boom.cs" />
     <Compile Include="Assets\Scripts\Interactables\Key.cs" />
-    <Compile Include="Assets\Scripts\Exit.cs" />
+    <Compile Include="Assets\Scripts\Core\Exit.cs" />
     <Compile Include="Assets\Scripts\Interactables\HealthItem.cs" />
     <Compile Include="Assets\Scripts\Interactables\Ladder.cs" />
+    <Compile Include="Assets\Scripts\Core\PlayerControlls.cs" />
     <Compile Include="Assets\Scripts\Olaf.cs" />
     <Compile Include="Assets\Scripts\Core\IPlayer.cs" />
     <Compile Include="Assets\Scripts\Baleog.cs" />
     <Compile Include="Assets\Scripts\Core\IEnemy.cs" />
     <Compile Include="Assets\Scripts\Core\IPickup.cs" />
     <Compile Include="Assets\Scripts\Interactables\Button.cs" />
-    <Compile Include="Assets\Scripts\Core\PlayerControlls.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -736,6 +737,15 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

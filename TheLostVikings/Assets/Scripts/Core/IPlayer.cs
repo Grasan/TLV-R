@@ -4,18 +4,22 @@ using UnityEngine.InputSystem;
 
 namespace TheLostVikings {
     public abstract class IPlayer : MonoBehaviour {
-        //Stats
+        // Stats
         public float movementSpeed = 5.0f;
         public int healthPoints = 3;
         public int shieldPoints = 0;
         public IPickup[] inventory = new IPickup[4];
-        private bool dead;
+        public bool dead;
 
         public Transform groundPoint;
         public LayerMask whatIsGround;
+        public bool isActive = false;
         protected bool isGrounded;
+        protected bool facingRight;
 
-        //Components
+        // Components
+        protected IPlayer nextCharachter;
+        protected IPlayer previusCharachter;
         Vector2 direction;
 
         // Anim
@@ -32,10 +36,13 @@ namespace TheLostVikings {
             // Cheack if on the ground
             isGrounded = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsGround);
 
+
             // Movement
-            if (direction.x >= 0.6 || direction.x <= -0.6) {
-                Vector2 m = new Vector2(direction.x, 0) * Time.deltaTime;
-                transform.Translate(m * movementSpeed, Space.World);
+            if (isActive) {
+                if (direction.x >= 0.6 || direction.x <= -0.6) {
+                    Vector2 m = new Vector2(direction.x, 0) * Time.deltaTime;
+                    transform.Translate(m * movementSpeed, Space.World);
+                }
             }
         }
 
@@ -43,16 +50,11 @@ namespace TheLostVikings {
             if (context.performed)
                 Debug.Log("hello! My name is " + this.name);
         }
-
+        
         public void Move(InputAction.CallbackContext context) {
             direction = context.ReadValue<Vector2>();
-
-            if (direction.x >= 0.6 || direction.x <= -0.6) {
-                Vector2 m = new Vector2(direction.x, 0) * Time.deltaTime;
-                transform.Translate(m * movementSpeed, Space.World);
-            }
         }
-
+        
         public void ClimbLadder() {
 
         }
@@ -70,6 +72,9 @@ namespace TheLostVikings {
                 // Die();
             }
         }
+
+        public IPlayer GetNextCharacter() { return nextCharachter; }
+        public IPlayer GetPreviusCharacter() { return previusCharachter; }
 
         private void Die() {
             for (int i = 0; i < inventory.Length; i++) {
