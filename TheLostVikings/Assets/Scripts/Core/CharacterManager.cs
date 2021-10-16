@@ -8,17 +8,16 @@ namespace TheLostVikings {
 
         public IPlayer activeCharacter;
 
-        // Start is called before the first frame update
         private void Start() {
             activeCharacter = GameObject.FindObjectOfType<Erik>();
             activeCharacter.isActive = true;
         }
 
         private void Update() {
-            if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.JoystickButton7))
+            if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.JoystickButton5))
                 SwitchCharacterRight();
 
-            if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.JoystickButton6))
+            if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.JoystickButton4))
                 SwitchCharacterLeft();
         }
 
