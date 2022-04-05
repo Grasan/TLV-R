@@ -2,11 +2,11 @@
 using UnityEngine;
 
 namespace TheLostVikings.Interactable {
-    public class HealthItem : IPickup {
+    public class HealthItem : Pickup {
         public int healthPoints = 1;
 
-        public void UseItem() {
-            Debug.Log("Player gained " + healthPoints + " HP.");
+        public override void UseItem() {
+            Debug.Log(owner.name + " gained " + healthPoints + " HP.");
         }
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 namespace TheLostVikings {
     public class CharacterManager : MonoBehaviour {
 
-        public IPlayer activeCharacter;
+        public Player activeCharacter;
 
         private void Start() {
             activeCharacter = GameObject.FindObjectOfType<Erik>();

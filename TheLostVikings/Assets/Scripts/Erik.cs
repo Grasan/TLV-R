@@ -3,20 +3,20 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace TheLostVikings {
-    public class Erik : IPlayer {
+    public class Erik : Player {
         public float jumpForce = 5;
 
         public override void Awake() {
             base.Awake();
 
-            nextCharachter = GameObject.FindObjectOfType<Baleog>();
-            previusCharachter = GameObject.FindObjectOfType<Olaf>();
+            nextCharachter = FindObjectOfType<Baleog>();
+            previusCharachter = FindObjectOfType<Olaf>();
         }
 
         // Action 1
         public void Jump(InputAction.CallbackContext context) {
             if (context.performed && isGrounded && isActive)
-                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+                gameObject.GetComponent<Rigidbody>().AddForce(new Vector2(0f, jumpForce), ForceMode.Impulse);
         }
 
         // Action 2

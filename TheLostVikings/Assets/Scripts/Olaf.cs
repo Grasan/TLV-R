@@ -2,7 +2,7 @@
 using UnityEngine.InputSystem;
 
 namespace TheLostVikings {
-    public class Olaf : IPlayer {
+    public class Olaf : Player {
         private bool shieldUp = false;
 
         public override void Awake() {

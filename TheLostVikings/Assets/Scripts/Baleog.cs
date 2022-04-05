@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace TheLostVikings {
-    public class Baleog : IPlayer {
+    public class Baleog : Player {
         public float arrowSpeed = 3.0f;
         public float swordCooldown = 0.5f;
 

@@ -2,17 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boom : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+namespace TheLostVikings {
+    public class Boom : Pickup {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public override void UseItem() {
+            Debug.Log(owner.name + " dropped a bomb");
+        }
+
     }
 }

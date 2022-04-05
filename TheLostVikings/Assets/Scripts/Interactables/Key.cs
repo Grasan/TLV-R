@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace TheLostVikings {
-    public class Key : IPickup {
+    public class Key : Pickup {
         public Door target;
 
-        public void UseItem() {
-            Debug.Log("Player unlocked " + target);
+        public override void UseItem() {
+            Debug.Log(owner.name + " used a key to open a door");
         }
     }
 }
