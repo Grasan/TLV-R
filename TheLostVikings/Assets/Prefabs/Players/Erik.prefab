@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 2568949048163936603}
   - component: {fileID: 5695383055415963481}
   - component: {fileID: 137589186404494301}
+  - component: {fileID: 7144593439407502874}
   m_Layer: 0
   m_Name: Erik
   m_TagString: Untagged
@@ -130,15 +131,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
-  healthPoints: 3
-  shieldPoints: 0
   dead: 0
+  climbing: 0
   groundPoint: {fileID: 0}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 200
   isActive: 0
-  isGrounded: 0
+  backpack: {fileID: 0}
   dammagedAnimClip: {fileID: 0}
   deathAnimClip: {fileID: 0}
   jumpForce: 5
@@ -233,3 +233,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7144593439407502874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8546821016320231721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5322ac6865e2f4f8074556667d082a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  itemIndex: 0

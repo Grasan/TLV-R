@@ -6,10 +6,9 @@ namespace TheLostVikings {
     public abstract class Player : MonoBehaviour {
         // Stats
         public float movementSpeed = 5.0f;
-        public int healthPoints = 3;
-        public int shieldPoints = 0;
-        protected Pickup[] inventory = new Pickup[4];
-        protected int itemIndex = 0;
+        protected int healthPoints = 3;
+        protected int shieldPoints = 0;
+
         public bool dead;
         public bool climbing;
 
@@ -20,6 +19,7 @@ namespace TheLostVikings {
         protected bool facingRight;
 
         // Components
+        protected Backpack backpack;
         protected CharacterManager characterManager;
         protected Player nextCharachter;
         protected Player previusCharachter;
@@ -31,10 +31,7 @@ namespace TheLostVikings {
 
         public virtual void Awake() {
             characterManager = FindObjectOfType<CharacterManager>();
-
-            for (int i = 0; i < inventory.Length; i++) {
-                inventory[i] = null;
-            }
+            backpack = GetComponent<Backpack>();
         }
 
         public virtual void Update() {
@@ -81,6 +78,25 @@ namespace TheLostVikings {
             }
         }
 
+        public Backpack GetBackpack() {
+            return this.backpack;
+        }
+
+        public void useItem(InputAction.CallbackContext context) {
+            backpack.slots[backpack.itemIndex].UseItem();
+            backpack.slots[backpack.itemIndex] = null;
+        }
+
+        public void giveHealth(int healthPoints) {
+            if (this.healthPoints + healthPoints >= 3)
+                this.healthPoints = 3;
+            else
+                this.healthPoints += healthPoints;
+        }
+        public void AddShield(int shieldPoints) {
+
+        }
+
         public Player GetNextCharacter() { return nextCharachter; }
         public Player GetPreviusCharacter() { return previusCharachter; }
 
@@ -88,9 +104,7 @@ namespace TheLostVikings {
         private bool myPreviusFriendIsDead => GetPreviusCharacter() == null;
         private bool allMyFriendsAreDead => (myNextFriendIsDead && myPreviusFriendIsDead);
         private void Die() {
-            for (int i = 0; i < inventory.Length; i++) {
-                inventory[i] = null;
-            }
+            backpack.ClearInventory();
             dead = true;
             // Play dead anim
             if (allMyFriendsAreDead) {
@@ -100,30 +114,6 @@ namespace TheLostVikings {
             } else if (myPreviusFriendIsDead) {
                 characterManager.SwitchCharacterRight();
             }
-        }
-
-        public bool backpackFull => (
-            inventory[0] != null && 
-            inventory[1] != null && 
-            inventory[2] != null && 
-            inventory[3] != null
-        );
-        public void AddItemToPack(Pickup item) {
-            if (inventory[0] == null) {
-                inventory[0] = item;
-            } else
-            if (inventory[1] == null) {
-                inventory[1] = item;
-            } else
-            if (inventory[2] == null) {
-                inventory[2] = item;
-            } else {
-                inventory[3] = item;
-            }
-        }
-        public void useItem(InputAction.CallbackContext context) {
-            inventory[itemIndex].UseItem();
-            inventory[itemIndex] = null;
         }
     }
 }

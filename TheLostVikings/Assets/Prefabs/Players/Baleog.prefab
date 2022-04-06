@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 2798708057513091164}
   - component: {fileID: 8085683666944326549}
   - component: {fileID: 718475638352816155}
+  - component: {fileID: 1182484413847576452}
   m_Layer: 0
   m_Name: Baleog
   m_TagString: Untagged
@@ -129,15 +130,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
-  healthPoints: 3
-  shieldPoints: 0
   dead: 0
+  climbing: 0
   groundPoint: {fileID: 0}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 200
   isActive: 0
-  isGrounded: 0
+  backpack: {fileID: 0}
   dammagedAnimClip: {fileID: 0}
   deathAnimClip: {fileID: 0}
   arrowSpeed: 3
@@ -171,3 +171,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1182484413847576452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8951965277860044366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5322ac6865e2f4f8074556667d082a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  itemIndex: 0

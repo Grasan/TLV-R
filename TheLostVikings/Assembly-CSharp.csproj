@@ -56,23 +56,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Interactables\Door.cs" />
-    <Compile Include="Assets\Scripts\Interactables\Turret.cs" />
     <Compile Include="Assets\Scripts\Erik.cs" />
-    <Compile Include="Assets\Scripts\Core\CharacterManager.cs" />
-    <Compile Include="Assets\Scripts\Interactables\Shield.cs" />
-    <Compile Include="Assets\Scripts\Interactables\Boom.cs" />
-    <Compile Include="Assets\Scripts\Interactables\Key.cs" />
-    <Compile Include="Assets\Scripts\Core\Exit.cs" />
-    <Compile Include="Assets\Scripts\Interactables\HealthItem.cs" />
-    <Compile Include="Assets\Scripts\Interactables\Ladder.cs" />
-    <Compile Include="Assets\Scripts\Core\PlayerControlls.cs" />
     <Compile Include="Assets\Scripts\Olaf.cs" />
-    <Compile Include="Assets\Scripts\Core\Player.cs" />
     <Compile Include="Assets\Scripts\Baleog.cs" />
-    <Compile Include="Assets\Scripts\Core\IEnemy.cs" />
-    <Compile Include="Assets\Scripts\Core\Pickup.cs" />
-    <Compile Include="Assets\Scripts\Interactables\Button.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -749,6 +735,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Core.csproj">
+      <Project>{0B0E5293-EE82-55C9-9A6B-D14526DFCE2A}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Consumables.csproj">
+      <Project>{3C41DFE9-A884-5CE4-3A76-07AF3E4FB3A8}</Project>
+      <Name>Consumables</Name>
+    </ProjectReference>
+    <ProjectReference Include="Interactables.csproj">
+      <Project>{C63761A2-7DDB-A4D7-B753-74DF302281BC}</Project>
+      <Name>Interactables</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
