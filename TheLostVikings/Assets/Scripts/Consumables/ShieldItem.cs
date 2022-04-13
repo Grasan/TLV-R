@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TheLostVikings.Core;
 
-namespace TheLostVikings {
+namespace TheLostVikings.Consumables {
     public class ShieldItem : Pickup {
         public int shieldPoints = 1;
 

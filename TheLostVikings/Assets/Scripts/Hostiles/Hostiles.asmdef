@@ -1,0 +1,16 @@
+{
+    "name": "Hostiles",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8f36f63ee49912c438c7782ee14a8e49"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

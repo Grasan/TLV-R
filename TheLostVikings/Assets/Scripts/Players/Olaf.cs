@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using TheLostVikings.Core;
 
-namespace TheLostVikings {
+namespace TheLostVikings.Players {
     public class Olaf : Player {
         private bool shieldUp = false;
 
-        public override void Awake() {
+        protected override void Awake() {
             base.Awake();
 
             nextCharachter = GameObject.FindObjectOfType<Erik>();
@@ -14,7 +15,7 @@ namespace TheLostVikings {
 
         // Action 1 & 2
         public void TiltShield(InputAction.CallbackContext context) {
-            if (isActive) {
+            if (isActive()) {
                 // flip the shield
                 if (shieldUp)
                     shieldUp = false;

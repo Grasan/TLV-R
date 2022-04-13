@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace TheLostVikings {
+namespace TheLostVikings.Core {
     public class CharacterManager : MonoBehaviour {
 
         public Player activeCharacter;
 
         private void Start() {
             activeCharacter = GameObject.FindObjectOfType<Erik>();
-            activeCharacter.isActive = true;
+            activeCharacter.setActive(true);
         }
 
         private void Update() {
@@ -23,16 +23,16 @@ namespace TheLostVikings {
 
         public void SwitchCharacterRight() {
             Debug.Log("Current character: " + activeCharacter.name);
-            activeCharacter.isActive = false;
-            if (activeCharacter.GetNextCharacter().dead == false) {
+            activeCharacter.setActive(false);
+            if (activeCharacter.GetNextCharacter().isDead() == false) {
                 Debug.Log(activeCharacter.GetNextCharacter().name + " is alive. switching to him");
                 activeCharacter = activeCharacter.GetNextCharacter();
-                activeCharacter.isActive = true;
+                activeCharacter.setActive(true);
                 return;
-            } else if (activeCharacter.GetPreviusCharacter().dead == false) {
+            } else if (activeCharacter.GetPreviusCharacter().isDead() == false) {
                 Debug.Log(activeCharacter.GetNextCharacter().name + " is dead. switching to " + activeCharacter.GetPreviusCharacter().name + " instead");
                 activeCharacter = activeCharacter.GetPreviusCharacter();
-                activeCharacter.isActive = true;
+                activeCharacter.setActive(true);
                 return;
             } else {
                 Debug.Log("Everyone else is dead");
@@ -42,16 +42,16 @@ namespace TheLostVikings {
 
         public void SwitchCharacterLeft() {
             Debug.Log("Current character: " + activeCharacter.name);
-            activeCharacter.isActive = false;
-            if (activeCharacter.GetPreviusCharacter().dead == false) {
+            activeCharacter.setActive(false);
+            if (activeCharacter.GetPreviusCharacter().isDead() == false) {
                 Debug.Log(activeCharacter.GetPreviusCharacter().name + " is alive. switching to him");
                 activeCharacter = activeCharacter.GetPreviusCharacter();
-                activeCharacter.isActive = true;
+                activeCharacter.setActive(true);
                 return;
-            } else if (activeCharacter.GetNextCharacter().dead == false) {
+            } else if (activeCharacter.GetNextCharacter().isDead() == false) {
                 Debug.Log(activeCharacter.GetPreviusCharacter().name + " is dead. switching to " + activeCharacter.GetNextCharacter().name + " instead");
                 activeCharacter = activeCharacter.GetNextCharacter();
-                activeCharacter.isActive = true;
+                activeCharacter.setActive(true);
                 return;
             } else {
                 Debug.Log("Everyone else is dead");

@@ -1,7 +1,8 @@
 ﻿using System;
+using TheLostVikings.Core;
 using UnityEngine;
 
-namespace TheLostVikings.Interactable {
+namespace TheLostVikings.Consumables {
     public class HealthItem : Pickup {
         public int healthPoints = 1;
 

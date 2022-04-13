@@ -2,11 +2,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace TheLostVikings {
+namespace TheLostVikings.Core {
     public class Erik : Player {
         public float jumpForce = 5;
 
-        public override void Awake() {
+        protected override void Awake() {
             base.Awake();
 
             nextCharachter = FindObjectOfType<Baleog>();
@@ -15,13 +15,18 @@ namespace TheLostVikings {
 
         // Action 1
         public void Jump(InputAction.CallbackContext context) {
-            if (context.performed && isGrounded && isActive)
+            if (context.performed && movement.isGrounded && isActive())
                 gameObject.GetComponent<Rigidbody>().AddForce(new Vector2(0f, jumpForce), ForceMode.Impulse);
+            else
+                Debug.Log(
+                    "isGrounded: " + movement.isGrounded + "\n" +
+                    "isActive: " + isActive()
+                );
         }
 
         // Action 2
         public void Dash(InputAction.CallbackContext context) {
-            if (isActive)
+            if (isActive() && movement.isGrounded)
                 StartCoroutine("Dashing");
         }
 

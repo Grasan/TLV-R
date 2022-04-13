@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TheLostVikings.Core;
 using UnityEngine;
 
-namespace TheLostVikings {
+namespace TheLostVikings.Consumables {
     public class Boom : Pickup {
 
         public override void UseItem() {

@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TheLostVikings {
+namespace TheLostVikings.Core {
     public abstract class Pickup:MonoBehaviour {
         protected Player owner;
         protected BoxCollider col;
-        protected MeshRenderer mesh;
+        protected MeshFilter mesh;
+        protected MeshRenderer meshRenderer;
 
-        protected void Awake() {
+        protected virtual void Awake() {
             col = GetComponent<BoxCollider>();
-            mesh = GetComponentInChildren<MeshRenderer>();
+            mesh = GetComponentInChildren<MeshFilter>();
+            meshRenderer = GetComponentInChildren<MeshRenderer>();
         }
 
         void OnTriggerEnter(Collider other) {
@@ -22,9 +24,8 @@ namespace TheLostVikings {
                 Debug.Log(owner.name + " Picked up a " + name);
 
                 // Deactivate collider and renderer for object.
-                col.gameObject.SetActive(false);
-                mesh.gameObject.SetActive(false);
-                gameObject.SetActive(false);
+                Destroy(mesh);
+                Destroy(col);
             }
         }
 

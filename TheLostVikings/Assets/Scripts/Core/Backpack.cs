@@ -1,6 +1,7 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-namespace TheLostVikings {
+namespace TheLostVikings.Core {
     public class Backpack : MonoBehaviour {
         public Pickup[] slots = new Pickup[4];
         public int itemIndex = 0;
@@ -34,6 +35,11 @@ namespace TheLostVikings {
             for (int i = 0; i < slots.Length; i++) {
                 slots[i] = null;
             }
+        }
+
+        public void useItem(InputAction.CallbackContext context) {
+            slots[itemIndex].UseItem();
+            slots[itemIndex] = null;
         }
     }
 }

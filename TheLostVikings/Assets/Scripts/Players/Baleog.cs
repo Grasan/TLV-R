@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TheLostVikings.Core;
 
-namespace TheLostVikings {
+namespace TheLostVikings.Players {
     public class Baleog : Player {
         public float arrowSpeed = 3.0f;
         public float swordCooldown = 0.5f;
 
-        public override void Awake() {
+        protected override void Awake() {
             base.Awake();
 
             nextCharachter = GameObject.FindObjectOfType<Olaf>();
@@ -15,12 +16,12 @@ namespace TheLostVikings {
         }
 
         private void SwingSword() {
-            if (isActive)
+            if (isActive())
                 Debug.Log("I used my sword");
         }
 
         private IEnumerator DrawBow() {
-            if (isActive) {
+            if (isActive()) {
                 Debug.Log(this.name + " has drawn his bow");
                 yield return new WaitForSeconds(1.0f);
             }

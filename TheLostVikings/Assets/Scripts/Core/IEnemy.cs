@@ -2,19 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TheLostVikings
-{
-    public abstract class IEnemy : MonoBehaviour
-    {
+namespace TheLostVikings.Core {
+    public abstract class IEnemy : MonoBehaviour {
         // Start is called before the first frame update
-        void Start()
-        {
+        void Start() {
 
         }
 
         // Update is called once per frame
-        void Update()
-        {
+        void Update() {
 
         }
     }
